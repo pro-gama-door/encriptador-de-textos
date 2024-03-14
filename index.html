@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de textos</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Encriptador de textos</h1>
+        </div>
+        
+    </header>
+    <main>
+        <section class="contenido">
+            
+                <div class="contenedor">
+                    <textarea  cols="60" rows="10" id="texto" class="input-mensaje" placeholder="Ingrese texto" required></textarea><!--Ingrese texto-->
+                    <div class="contenedor-boton">
+                        <button onclick="encriptar()" id="botonEncriptar" class="boton" >Encriptar </button>
+                    <button onclick="desencriptar()" id="botonDesencriptar" class="boton">Desencriptar</button>
+                    </div>
+                </div>
+
+                <div class="contenedor">
+                    <textarea  cols="60" rows="10" id="resultado" class="input-mensaje" placeholder="Texto a copiar" required></textarea>
+                   
+                    <div class="contenedor-boton">
+                        <button onclick="copiar()" id="botonCopiar" class="boton">Copiar</button>
+                        
+                        <button onclick="limpiar()" id="botonLimpiar" class="boton">limpiar</button>
+                    </div>
+                    
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="rodapie">
+            <img src="imagenes/Face-Cat-Vector-PNG-Photos.png" class="imagen-footer">
+            <p>Autor: Edgar Eli Gallegos López</p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

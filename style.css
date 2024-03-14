@@ -1,0 +1,139 @@
+header h1{
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 54px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(180deg, #000000 , #ffffff);
+    width: 100%;
+    height: 100%;
+}
+main{
+    padding: 0 auto 0 auto;
+    margin: 0 auto;
+}
+.contenido{
+    margin: 0 auto;
+}
+.contenedor{
+    width: 49.75%;
+    display: inline-block;
+    margin: 0 auto;
+}
+.input-mensaje{
+    width: 35%;
+    height: 400px;
+    color: #000000;
+    border: solid 3px #000000;
+    border-radius: 250px;
+    padding: 12%;
+    margin: 10px 20%;
+    font-size: 16px;
+    background: white;
+    text-transform: lowercase;
+}
+.contenedor-boton{
+    width: 100%;
+    display: inline;
+} 
+.boton{
+    width: 29%;
+    border: 3px solid black;
+    background: white;
+    color: black;
+    font-size: 25px;
+    border-radius: 50px 50px 0 0;
+    margin: 0 10.14% ;
+    margin-bottom: 36px;
+}
+.rodapie{
+    background: white;
+    background: linear-gradient(180deg, #d1d1d1 , #ffffff);
+    padding: 50px  50px auto;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagen-footer{
+    width: 10%;
+    border-radius: 2% solid black;
+}
+@media screen and (max-width:480px){
+    header h1{
+        font-size: 30px;
+    }
+    .contenedor{
+        width: 100%;
+        display: inline;
+        
+    }
+    .input-mensaje{
+        width: 50%;
+        display: inline-block;
+        height: 300px;
+        border-radius: 250px;
+        margin: 0 12%;
+    }
+    .contenedor-boton{
+        width: 100%;
+        display: block;
+        margin: 0 auto;        
+    }
+    .boton{
+        width: 50%;
+        font-size: 20px;
+        margin: 0 25%;
+    }
+    #botonDesencriptar,#botonLimpiar{
+        border-radius: 0px 0px 50px 50px;
+        margin-bottom: 20px;
+    }
+    #botonEncriptar,#botonCopiar{
+        margin-top: 20px;
+    }
+}
+@media  (min-width: 481px) and (max-width:1024px){
+    header h1{
+        font-size: 40px;
+    }
+    .contenido{
+        width: 100%;
+    }
+    .contenedor{
+        display: flex;
+        height: 25%;
+        width: 80%;
+        margin-bottom: 36px;
+        margin-top: 36px;
+
+    }
+    .input-mensaje{
+        width: 30%;
+        display: inline-block;
+        height: 300px;
+        margin: 0 0;
+    }
+    .contenedor-boton{
+        width: fit-content;
+        display: block;
+        margin: auto auto;  
+        padding-left: 10px;  
+    }
+    .boton{
+        width: 250px;
+        font-size: 20px;
+        display: block;
+        margin: 0  0;
+    }
+    #botonDesencriptar,#botonLimpiar{
+        border-radius: 0px 0px 50px 50px;
+        margin-bottom: 20px;
+    }
+    #botonEncriptar,#botonCopiar{
+        margin-top: 20px;
+    }
+}
